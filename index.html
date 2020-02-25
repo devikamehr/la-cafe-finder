@@ -1,10 +1,15 @@
+
 <!DOCTYPE html>
 <html>
   <head>
+    <script type='text/javascript' src='config.js'></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <title>Famous Cafe Finder</title> 
   </head>
   <body>
+      <script>
+          var mykey = config.MY_KEY;
+      </script>
       <!--Grid row-->
     <div class="row d-flex justify-content-center">
 
@@ -55,9 +60,8 @@
                 Who knows- maybe while you're listening to the artist's music, 
                 they'll walk right by you! Tell them I sent you :)
             </p>
-            <script src="env.js"></script>
-            <script>console.log(env.USER +'@'+ env.HOSTNAME); // "simone@ubuntu"</script>
-
+            
+            <script> document.write(mykey)</script>
 
     </div>
   </body>
