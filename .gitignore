@@ -1,2 +1,1 @@
-.env
-/var/secure/api_key.php
+config.js
